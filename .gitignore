@@ -1,28 +1,7 @@
-# Virtual Environment (contains your working setup - keep private)
-signal_scan_env/
-
-# Environment files with API keys - NEVER commit these!
 .env
-*.env
-api_keys.*
-config.json
-
-# Python cache
+venv/
 __pycache__/
-*.py[cod]
-*.class
-
-# Database files (may contain personal data)
-*.db
-*.sqlite3
-
-# Log files (may contain sensitive info)
+*.pyc
+*.pyo
 *.log
-logs/
-
-# Temporary/junk files
-0
-temp/
-cache/
 .DS_Store
-Thumbs.db
